@@ -1,0 +1,13 @@
+nav{
+	@include nav-foot-style;
+	@include animation;
+	div{
+		padding-left: 900px;
+		padding-top: 10px;
+		a{
+			@include nav-foot-style-a;
+			padding-left: 30px;
+			font-size: 20px;
+		}		
+	}
+}

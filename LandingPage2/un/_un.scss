@@ -1,0 +1,28 @@
+.un{
+	margin-top: 50px;
+	background-image: url("image-bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 250px;
+	padding: 50px 50px;
+	div{
+		h1{
+			font-family: sans-serif;
+			letter-spacing: 3px;
+		}
+		font-family: $nav-foot-family;
+		color: #fff;
+		width: 50%;
+		p{
+			letter-spacing: 2px;
+			font-weight: 50;
+			margin-bottom: 40px;
+		}
+		a{
+			@include a;
+			background: #FF69B4;
+			padding: 10px;
+			border-radius: 2px;
+		}
+	}		
+}

@@ -1,0 +1,23 @@
+footer{
+	background: $nav-foot-background;
+	@include nav-foot-style;
+	div{
+		margin-top: -8px;
+		float: left;
+		width: 33.333333333%;
+		background: $nav-foot-background;
+		text-align: center;
+		height: 180px;
+		hr{
+			width: 70px;
+			margin-bottom: 20px;
+			margin-top: -10px;
+		}
+		a{
+			@include nav-foot-style-a;
+			display: block;
+			margin-top: 10px;
+			font-size: 13px;
+		}
+	}
+}
