@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.main nav {
+  width: 100%;
+  background: #e3e3e3;
+  color: #000;
+  font-family: arial; }
+  .main nav a {
+    -webkit-animation: sahan 5s;
+    -moz-animation: sahan 5s;
+    -o-animation: sahan 7s;
+    animation: sahan 5s; }
+@-webkit-keyframes sahan {
+  from {
+    color: rgba(255, 255, 255, 0.1); }
+  to {
+    color: #000; } }
+@-moz-keyframes sahan {
+  from {
+    color: rgba(255, 255, 255, 0.1); }
+  to {
+    color: #000; } }
+@-o-keyframes sahan {
+  from {
+    color: rgba(0, 255, 255, 0.1); }
+  to {
+    color: #000; } }
+@keyframes sahan {
+  from {
+    color: rgba(255, 255, 255, 0.1); }
+  to {
+    color: #000; } }
+  .main nav div {
+    padding-left: 900px;
+    padding-top: 10px; }
+    .main nav div a {
+      color: #000;
+      text-decoration: none;
+      padding-left: 30px;
+      font-size: 20px; }
+      .main nav div a:hover {
+        color: #00f; }
+.main .un {
+  margin-top: 50px;
+  background-image: url("image-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 250px;
+  padding: 50px 50px; }
+  .main .un div {
+    font-family: arial;
+    color: #fff;
+    width: 50%; }
+    .main .un div h1 {
+      font-family: sans-serif;
+      letter-spacing: 3px; }
+    .main .un div p {
+      letter-spacing: 2px;
+      font-weight: 50;
+      margin-bottom: 40px; }
+    .main .un div a {
+      color: #000;
+      text-decoration: none;
+      background: #FF69B4;
+      padding: 10px;
+      border-radius: 2px; }
+      .main .un div a:hover {
+        color: #00f; }
+.main .deux {
+  margin-top: 100px; }
+  .main .deux div {
+    float: left;
+    width: 40%;
+    padding-left: 7%;
+    font-family: arial; }
+.main table {
+  margin-top: 400px;
+  margin-bottom: 200px;
+  width: 100%; }
+  .main table td {
+    width: 50%; }
+    .main table td img {
+      width: 100%;
+      height: 300px; }
+.main footer {
+  background: #e3e3e3;
+  width: 100%;
+  background: #e3e3e3;
+  color: #000;
+  font-family: arial; }
+  .main footer div {
+    margin-top: -8px;
+    float: left;
+    width: 33.333333333%;
+    background: #e3e3e3;
+    text-align: center;
+    height: 180px; }
+    .main footer div hr {
+      width: 70px;
+      margin-bottom: 20px;
+      margin-top: -10px; }
+    .main footer div a {
+      color: #000;
+      text-decoration: none;
+      display: block;
+      margin-top: 10px;
+      font-size: 13px; }
+      .main footer div a:hover {
+        color: #00f; }
+
+/*# sourceMappingURL=landing.css.map */

@@ -1,0 +1,65 @@
+
+@mixin nav-foot-style {
+	width: 100%;
+	background: $nav-foot-background;
+	color: $nav-foot-color;
+	font-family: $nav-foot-family;
+
+}
+
+@mixin nav-foot-style-a {
+	color: $nav-foot-color;
+	text-decoration: none;
+	&:hover{
+		color: #00f;
+	}
+}
+
+@mixin a {
+	color: $nav-foot-color;
+	text-decoration: none;
+	&:hover{
+		color: #00f;
+	}
+}
+
+@mixin animation{
+	a{
+		-webkit-animation: sahan 5s;
+		-moz-animation: sahan 5s;
+		-o-animation: sahan 7s;
+		animation: sahan 5s;
+	}
+	@-webkit-keyframes sahan{
+		from{
+			color: rgba(255,255,255,0.1);
+		}
+		to{
+			color: $nav-foot-color;
+		}
+	}
+	@-moz-keyframes sahan{
+		from{
+			color: rgba(255,255,255,0.1);
+		}
+		to{
+			color: $nav-foot-color;
+		}
+	}
+	@-o-keyframes sahan{
+		from{
+			color: rgba(0,255,255,0.1);
+		}
+		to{
+			color: $nav-foot-color;
+		}
+	}
+	@keyframes sahan{
+		from{
+			color: rgba(255,255,255,0.1);
+		}
+		to{
+			color: $nav-foot-color;
+		}
+	}
+}
