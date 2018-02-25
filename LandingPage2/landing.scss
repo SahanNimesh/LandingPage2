@@ -1,100 +1,12 @@
 @import "variables/_variables.scss";
 @import "mixins/_mixins.scss";
+@import "default/_default.scss";
 
-body{
-	margin: 0px;
-	padding: 0px;
-}
 
 .main{
-	nav{
-		@include nav-foot-style;
-		@include animation;
-		div{
-			padding-left: 900px;
-			padding-top: 10px;
-			a{
-				@include nav-foot-style-a;
-				padding-left: 30px;
-				font-size: 20px;
-			}		
-		}
-		
-	}
-
-	.un{
-		margin-top: 50px;
-		background-image: url("image-bg.jpg");
-		background-attachment: fixed;
-		background-size: cover;
-		height: 250px;
-		padding: 50px 50px;
-		div{
-			h1{
-				font-family: sans-serif;
-				letter-spacing: 3px;
-			}
-			font-family: $nav-foot-family;
-			color: #fff;
-			width: 50%;
-			p{
-				letter-spacing: 2px;
-				font-weight: 50;
-				margin-bottom: 40px;
-			}
-			a{
-				@include a;
-				background: #FF69B4;
-				padding: 10px;
-				border-radius: 2px;
-			}
-		}		
-	}
-
-	.deux{
-		margin-top: 100px;
-		div{
-			float: left;
-			width: 40%;
-			padding-left: 7%;
-			font-family: $nav-foot-family;
-		}
-	}
-
-	table{
-		margin-top: 400px;
-		margin-bottom: 200px;
-		width: 100%;
-		td{
-			width: 50%;
-			img{
-				width: 100%;
-				height: 300px;
-			}
-		}
-	}
-
-	footer{
-		background: $nav-foot-background;
-		@include nav-foot-style;
-		div{
-			margin-top: -8px;
-			float: left;
-			width: 33.333333333%;
-			background: $nav-foot-background;
-			text-align: center;
-			height: 180px;
-			hr{
-				width: 70px;
-				margin-bottom: 20px;
-				margin-top: -10px;
-			}
-			a{
-				@include nav-foot-style-a;
-				display: block;
-				margin-top: 10px;
-				font-size: 13px;
-			}
-		}
-	}
+	@import "nav/_nav.scss";
+	@import "un/_un.scss";
+	@import "deux/_deux.scss";
+	@import "table/_table.scss";
+	@import "footer/_footer.scss";
 }
